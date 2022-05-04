@@ -1,7 +1,11 @@
 p {
     text-align: center;
-    max-width: 50%;
     align-self: center;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.logo {
+    max-width: 200px;
 }
 
 .page-title {
@@ -19,6 +23,16 @@ p {
 
 .nav-link {
     color: white;
+    font-family: canter3D;
+    font-size: large;
+}
+
+li {
+    float:right;
+}
+
+li:first-child {
+    float:left;
 }
 
 .nav-link:hover {
@@ -29,7 +43,21 @@ p {
     color: black;
 }
 
-.p-container {
-    width: 50%;
+.content-container {
+    max-width: 50%;
     margin: 0 auto;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: canter3D;
+    src: url('Canter-Bold3D.ttf'),
+    url('Canter-Bold3D.eot');
 }
