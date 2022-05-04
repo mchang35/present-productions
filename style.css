@@ -16,9 +16,11 @@ p {
     text-decoration: underline;
 }
 
-.navbar {
+/* .navbar {
     background-color: #545454;
     color: white;
+    margin: 0;
+    overflow: hidden;
 }
 
 .nav-link {
@@ -27,16 +29,71 @@ p {
     font-size: large;
 }
 
-li {
+.nav-link:hover {
+    color: black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a {
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+}
+
+.navbar-right {
+    float: right;
+} */
+
+/* nav ul li:not(:first-child) {
+    float:right;
+}
+nav ul li:first-child {
+    /* margin-right: auto; */
+    /* float: left;
+} */
+
+/* li {
     float:right;
 }
 
 li:first-child {
     float:left;
+} */
+
+.topnav {
+    overflow: hidden;
+    background-color: #545454;
+}
+  
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: canter3D;
+}
+  
+.topnav a:hover {
+    color: black;
 }
 
-.nav-link:hover {
-    color: black;
+.topnav a.active {
+    text-decoration: underline;
+}
+  
+.topnav-right {
+    float: right;
 }
 
 .email {
@@ -49,11 +106,16 @@ li:first-child {
 }
 
 .copyright {
-    position: absolute;
+    /* position: absolute;
     bottom: 0px;
     text-align: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
 
 @font-face {
