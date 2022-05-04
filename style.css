@@ -105,19 +105,6 @@ li:first-child {
     margin: 0 auto;
 }
 
-.copyright {
-    /* position: absolute;
-    bottom: 0px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto; */
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-}
-
 @font-face {
     font-family: canter3D;
     src: url('Canter-Bold3D.ttf'),
